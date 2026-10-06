@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>MD Nazim Uddin Hamza | Software Engineer Portfolio</title>
+  <meta name="description" content="Portfolio of MD Nazim Uddin Hamza — Software Engineer specializing in full-stack ERP and SaaS development with Angular, Node.js and the Grails ecosystem." />
+  <meta name="theme-color" content="#4f46e5" />
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Cdefs%3E%3ClinearGradient id='g' x1='0' y1='0' x2='1' y2='1'%3E%3Cstop offset='0' stop-color='%234f46e5'/%3E%3Cstop offset='1' stop-color='%2306b6d4'/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width='64' height='64' rx='14' fill='url(%23g)'/%3E%3Ctext x='32' y='42' font-size='26' font-family='Arial, sans-serif' font-weight='700' fill='%23fff' text-anchor='middle'%3ENH%3C/text%3E%3C/svg%3E" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Poppins:wght@500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <a href="#home" class="skip-link">Skip to content</a>
+
+  <header class="navbar" id="navbar">
+    <nav class="nav container">
+      <a href="#home" class="logo">Nazim<span>Uddin</span></a>
+
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#home" class="nav-link" data-link>Home</a></li>
+        <li><a href="#about" class="nav-link" data-link>About</a></li>
+        <li><a href="#education" class="nav-link" data-link>Education</a></li>
+        <li><a href="#skills" class="nav-link" data-link>Skills</a></li>
+        <li><a href="#projects" class="nav-link" data-link>Projects</a></li>
+        <li><a href="#experience" class="nav-link" data-link>Experience</a></li>
+        <li><a href="#contact" class="nav-link" data-link>Contact</a></li>
+      </ul>
+
+      <div class="nav-actions">
+        <button id="themeToggle" class="icon-btn" aria-label="Toggle dark mode">
+          <i class="fa-solid fa-moon"></i>
+        </button>
+        <button id="navToggle" class="hamburger" aria-label="Toggle menu" aria-expanded="false" aria-controls="navLinks">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <!-- HOME -->
+    <section id="home" class="hero section">
+      <div class="hero-blobs" aria-hidden="true">
+        <span class="blob blob-1"></span>
+        <span class="blob blob-2"></span>
+      </div>
+
+      <div class="container hero-grid">
+        <div class="hero-text" data-reveal>
+          <p class="hero-greeting">Hello, I'm</p>
+          <h1 class="hero-name">MD Nazim Uddin Hamza</h1>
+          <h2 class="hero-role">I'm a <span id="typedRole" class="typed-text">Software Engineer</span><span class="cursor" aria-hidden="true">|</span></h2>
+          <p class="hero-desc">
+            I build full-stack ERP and SaaS platforms — from Angular front ends to Node.js,
+            NestJS, and Grails back ends — turning complex business workflows into reliable,
+            scalable software.
+          </p>
+          <div class="hero-cta">
+            <a href="#projects" class="btn btn-primary">View My Work</a>
+            <a href="assets/resume.pdf" class="btn btn-outline" download>Download CV</a>
+          </div>
+          <div class="hero-socials">
+            <a href="https://github.com/" target="_blank" rel="noopener noreferrer" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+            <a href="https://www.linkedin.com/in/md-nazim-uddin-hamza/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+            <a href="mailto:nazimuddin125390@gmail.com" aria-label="Email"><i class="fa-solid fa-envelope"></i></a>
+          </div>
+        </div>
+
+        <div class="hero-visual" data-reveal>
+          <div class="avatar-ring">
+            <div class="avatar-placeholder" aria-hidden="true">NH</div>
+          </div>
+        </div>
+      </div>
+
+      <a href="#about" class="scroll-down" aria-label="Scroll to About section">
+        <i class="fa-solid fa-chevron-down"></i>
+      </a>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about" class="section">
+      <div class="container">
+        <h2 class="section-title" data-reveal>About <span>Me</span></h2>
+        <p class="section-subtitle" data-reveal>Get to know a bit more about who I am and what I do</p>
+
+        <div class="about-grid">
+          <div class="about-image" data-reveal>
+            <div class="about-avatar" aria-hidden="true">NH</div>
+          </div>
+
+          <div class="about-content" data-reveal>
+            <p>
+              I'm MD Nazim Uddin Hamza, a Software Engineer who works across the full stack —
+              from Angular and TypeScript on the frontend to Node.js, NestJS, Hapi.js, Spring
+              Boot, and Grails on the backend. I enjoy designing ERP and SaaS systems that solve
+              real business problems, from travel and fitness to property and fleet management.
+            </p>
+            <p>
+              I'm currently pursuing my B.Sc. in Computer Science &amp; Engineering at Southeast
+              University while working as a Software Engineer, building and maintaining
+              production systems used by real businesses.
+            </p>
+
+            <div class="about-facts">
+              <div class="fact-item">
+                <i class="fa-solid fa-user"></i>
+                <div><span>Name</span><p>MD Nazim Uddin Hamza</p></div>
+              </div>
+              <div class="fact-item">
+                <i class="fa-solid fa-envelope"></i>
+                <div><span>Email</span><p>nazimuddin125390@gmail.com</p></div>
+              </div>
+              <div class="fact-item">
+                <i class="fa-solid fa-location-dot"></i>
+                <div><span>Location</span><p>Dhaka, Bangladesh</p></div>
+              </div>
+              <div class="fact-item">
+                <i class="fa-solid fa-briefcase"></i>
+                <div><span>Availability</span><p>Open to opportunities</p></div>
+              </div>
+            </div>
+
+            <a href="assets/resume.pdf" class="btn btn-primary" download>
+              <i class="fa-solid fa-download"></i> Download Resume
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- EDUCATION -->
+    <section id="education" class="section alt-bg">
+      <div class="container">
+        <h2 class="section-title" data-reveal>My <span>Education</span></h2>
+        <p class="section-subtitle" data-reveal>Academic background that shaped my technical foundation</p>
+
+        <div class="timeline">
+          <div class="timeline-item" data-reveal>
+            <div class="timeline-dot"></div>
+            <div class="timeline-card">
+              <span class="timeline-date">2023 — 2028</span>
+              <h3>B.Sc. in Computer Science &amp; Engineering</h3>
+              <h4>Southeast University</h4>
+              <p>Pursuing a bachelor's degree with a focus on software engineering, full-stack web development, and system design.</p>
+            </div>
+          </div>
+
+          <div class="timeline-item" data-reveal>
+            <div class="timeline-dot"></div>
+            <div class="timeline-card">
+              <span class="timeline-date">2018 — 2022</span>
+              <h3>Diploma in Computer Science &amp; Technology</h3>
+              <p>Completed a four-year diploma covering programming fundamentals, data structures, and software development practices.</p>
+            </div>
+          </div>
+
+          <div class="timeline-item" data-reveal>
+            <div class="timeline-dot"></div>
+            <div class="timeline-card">
+              <span class="timeline-date">2018</span>
+              <h3>Secondary School Certificate (SSC)</h3>
+              <h4>Science Group</h4>
+              <p>Completed secondary education with a focus on science subjects.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section id="skills" class="section">
+      <div class="container">
+        <h2 class="section-title" data-reveal>My <span>Skills</span></h2>
+        <p class="section-subtitle" data-reveal>Technologies and tools I work with</p>
+
+        <div class="skills-grid">
+          <div class="skill-card" data-reveal>
+            <div class="skill-card-icon"><i class="fa-solid fa-code"></i></div>
+            <h3>Languages</h3>
+            <div class="chip-list">
+              <span class="chip"><i class="fa-brands fa-java"></i> Java</span>
+              <span class="chip"><i class="fa-brands fa-js"></i> JavaScript</span>
+              <span class="chip"><i class="fa-solid fa-code"></i> TypeScript</span>
+              <span class="chip"><i class="fa-brands fa-python"></i> Python</span>
+              <span class="chip"><i class="fa-solid fa-droplet"></i> Groovy</span>
+            </div>
+          </div>
+
+          <div class="skill-card" data-reveal>
+            <div class="skill-card-icon"><i class="fa-solid fa-display"></i></div>
+            <h3>Frontend</h3>
+            <div class="chip-list">
+              <span class="chip"><i class="fa-brands fa-angular"></i> Angular</span>
+              <span class="chip"><i class="fa-brands fa-html5"></i> HTML5</span>
+              <span class="chip"><i class="fa-brands fa-css3-alt"></i> CSS3</span>
+              <span class="chip"><i class="fa-solid fa-wind"></i> Tailwind CSS</span>
+              <span class="chip"><i class="fa-brands fa-bootstrap"></i> Bootstrap</span>
+            </div>
+          </div>
+
+          <div class="skill-card" data-reveal>
+            <div class="skill-card-icon"><i class="fa-solid fa-server"></i></div>
+            <h3>Backend &amp; Frameworks</h3>
+            <div class="chip-list">
+              <span class="chip"><i class="fa-brands fa-node-js"></i> Node.js</span>
+              <span class="chip"><i class="fa-solid fa-cube"></i> NestJS</span>
+              <span class="chip"><i class="fa-solid fa-water"></i> Hapi.js</span>
+              <span class="chip"><i class="fa-solid fa-seedling"></i> Spring Boot</span>
+              <span class="chip"><i class="fa-solid fa-layer-group"></i> Grails</span>
+              <span class="chip"><i class="fa-solid fa-plug"></i> REST API</span>
+            </div>
+          </div>
+
+          <div class="skill-card" data-reveal>
+            <div class="skill-card-icon"><i class="fa-solid fa-database"></i></div>
+            <h3>Database</h3>
+            <div class="chip-list">
+              <span class="chip"><i class="fa-solid fa-database"></i> PostgreSQL</span>
+              <span class="chip"><i class="fa-solid fa-database"></i> MySQL</span>
+              <span class="chip"><i class="fa-solid fa-leaf"></i> MongoDB</span>
+            </div>
+          </div>
+
+          <div class="skill-card" data-reveal>
+            <div class="skill-card-icon"><i class="fa-solid fa-toolbox"></i></div>
+            <h3>DevOps &amp; Tools</h3>
+            <div class="chip-list">
+              <span class="chip"><i class="fa-brands fa-docker"></i> Docker</span>
+              <span class="chip"><i class="fa-brands fa-git-alt"></i> Git</span>
+              <span class="chip"><i class="fa-brands fa-linux"></i> Linux</span>
+              <span class="chip"><i class="fa-solid fa-server"></i> VPS</span>
+              <span class="chip"><i class="fa-brands fa-jira"></i> Jira</span>
+              <span class="chip"><i class="fa-brands fa-figma"></i> Figma</span>
+              <span class="chip"><i class="fa-solid fa-palette"></i> Canva</span>
+              <span class="chip"><i class="fa-solid fa-file-word"></i> MS Office</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section id="projects" class="section alt-bg">
+      <div class="container">
+        <h2 class="section-title" data-reveal>My <span>Projects</span></h2>
+        <p class="section-subtitle" data-reveal>A selection of ERP and SaaS systems I've helped build</p>
+
+        <div class="filter-buttons" data-reveal>
+          <button class="filter-btn active" data-filter="all">All</button>
+          <button class="filter-btn" data-filter="web">Web Apps</button>
+          <button class="filter-btn" data-filter="backend">Backend</button>
+        </div>
+
+        <div class="projects-grid" id="projectsGrid">
+          <article class="project-card" data-category="web" data-reveal>
+            <div class="project-thumb thumb-1" aria-hidden="true"><i class="fa-solid fa-plane"></i></div>
+            <div class="project-body">
+              <h3>GDS Flight — Travel Agency ERP</h3>
+              <p>A comprehensive travel agency management ERP covering GDS flight booking, ticketing, invoicing, and day-to-day agency operations.</p>
+              <div class="tag-list">
+                <span class="tag">Angular</span><span class="tag">Node.js</span><span class="tag">REST API</span>
+              </div>
+              <div class="project-links">
+                <a href="https://gdsflight.com" target="_blank" rel="noopener noreferrer"><i class="fa-solid fa-arrow-up-right-from-square"></i> Live Site</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card" data-category="web" data-reveal>
+            <div class="project-thumb thumb-2" aria-hidden="true"><i class="fa-solid fa-dumbbell"></i></div>
+            <div class="project-body">
+              <h3>GymOrbit — Gym Management SaaS</h3>
+              <p>A multi-tenant SaaS ERP for gyms to manage memberships, billing, attendance, and staff operations.</p>
+              <div class="tag-list">
+                <span class="tag">Angular</span><span class="tag">Node.js</span><span class="tag">SaaS</span>
+              </div>
+              <div class="project-links">
+                <a href="https://gymorbit.com" target="_blank" rel="noopener noreferrer"><i class="fa-solid fa-arrow-up-right-from-square"></i> Live Site</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card" data-category="web" data-reveal>
+            <div class="project-thumb thumb-3" aria-hidden="true"><i class="fa-solid fa-car"></i></div>
+            <div class="project-body">
+              <h3>Vehicle Management Solution</h3>
+              <p>A fleet and vehicle management system for tracking vehicles, maintenance schedules, and daily operations. Currently in active development.</p>
+              <div class="tag-list">
+                <span class="tag">Angular</span><span class="tag">NestJS</span><span class="tag">In Progress</span>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card" data-category="web" data-reveal>
+            <div class="project-thumb thumb-4" aria-hidden="true"><i class="fa-solid fa-building"></i></div>
+            <div class="project-body">
+              <h3>Property Management Solution</h3>
+              <p>A platform for managing property listings, tenants, lease agreements, and maintenance requests.</p>
+              <div class="tag-list">
+                <span class="tag">Angular</span><span class="tag">NestJS</span>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card" data-category="backend" data-reveal>
+            <div class="project-thumb thumb-5" aria-hidden="true"><i class="fa-solid fa-newspaper"></i></div>
+            <div class="project-body">
+              <h3>CMS Solution</h3>
+              <p>A modular content management system enabling flexible, structured content publishing and administration.</p>
+              <div class="tag-list">
+                <span class="tag">Groovy</span><span class="tag">Grails</span>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- EXPERIENCE / ACTIVITIES -->
+    <section id="experience" class="section">
+      <div class="container">
+        <h2 class="section-title" data-reveal>Experience &amp; <span>Activities</span></h2>
+        <p class="section-subtitle" data-reveal>Where I've worked and what I've been involved in</p>
+
+        <div class="timeline">
+          <div class="timeline-item" data-reveal>
+            <div class="timeline-dot"></div>
+            <div class="timeline-card">
+              <span class="timeline-date">2025 — Present</span>
+              <h3>Software Engineer (Team Lead)</h3>
+              <p>Leading a small engineering team while building and maintaining the Vehicle Management, Property Management, and Groovy/Grails CMS solutions, alongside mentoring junior developers and owning technical decisions across projects.</p>
+            </div>
+          </div>
+
+          <div class="timeline-item" data-reveal>
+            <div class="timeline-dot"></div>
+            <div class="timeline-card">
+              <span class="timeline-date">2023 — 2025</span>
+              <h3>Junior Software Engineer</h3>
+              <p>Built and shipped the GDS Flight travel agency ERP and the GymOrbit gym management SaaS using Angular and Node.js, working closely under the team lead on system design and delivery.</p>
+            </div>
+          </div>
+
+          <div class="timeline-item" data-reveal>
+            <div class="timeline-dot"></div>
+            <div class="timeline-card">
+              <span class="timeline-date">2022 — 2023 (6 Months)</span>
+              <h3>Software Engineering Intern</h3>
+              <p>Started as an intern, learning full-stack development fundamentals and contributing to early-stage features under senior engineers' guidance.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="section alt-bg">
+      <div class="container">
+        <h2 class="section-title" data-reveal>Get In <span>Touch</span></h2>
+        <p class="section-subtitle" data-reveal>Have a project in mind or just want to say hi? My inbox is always open.</p>
+
+        <div class="contact-grid">
+          <div class="contact-info" data-reveal>
+            <div class="contact-item">
+              <i class="fa-solid fa-envelope"></i>
+              <div><span>Email</span><p>nazimuddin125390@gmail.com</p></div>
+            </div>
+            <div class="contact-item">
+              <i class="fa-solid fa-location-dot"></i>
+              <div><span>Location</span><p>Dhaka, Bangladesh</p></div>
+            </div>
+
+            <div class="contact-socials">
+              <a href="https://github.com/" target="_blank" rel="noopener noreferrer" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+              <a href="https://www.linkedin.com/in/md-nazim-uddin-hamza/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+              <!-- <a href="https://x.com/" target="_blank" rel="noopener noreferrer" aria-label="X (Twitter)"><i class="fa-brands fa-x-twitter"></i></a> -->
+            </div>
+          </div>
+
+          <form class="contact-form" id="contactForm" novalidate>
+            <div class="form-row">
+              <div class="form-group">
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" placeholder="Your name" required />
+              </div>
+              <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" placeholder="you@example.com" required />
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="subject">Subject</label>
+              <input type="text" id="subject" name="subject" placeholder="Let's talk about..." required />
+            </div>
+            <div class="form-group">
+              <label for="message">Message</label>
+              <textarea id="message" name="message" rows="5" placeholder="Write your message here..." required></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">
+              <i class="fa-solid fa-paper-plane"></i> Send Message
+            </button>
+            <p id="formStatus" class="form-status" role="status" aria-live="polite"></p>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-content">
+      <p>&copy; <span id="year"></span> MD Nazim Uddin Hamza. All rights reserved.</p>
+      <button id="backToTop" class="icon-btn back-to-top" aria-label="Back to top">
+        <i class="fa-solid fa-arrow-up"></i>
+      </button>
+    </div>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
